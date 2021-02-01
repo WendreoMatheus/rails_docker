@@ -14,3 +14,4 @@ services:
       - db
     environment:
       PG_PASSWORD: password
+      PG_DATABASE: app
