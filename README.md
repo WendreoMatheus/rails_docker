@@ -1,12 +1,7 @@
 # Rails + Psql
 
 ## Instalação
-> bundle install
 
-> rails yarn:install
+1. docker compose up -d
 
-> rails webpacker:install
-
-> docker compose up -d
-
-> docker compose run web rails db:setup
+2. docker compose run web rails db:setup
